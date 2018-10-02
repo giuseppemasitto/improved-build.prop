@@ -9,8 +9,9 @@ Tweaks for build.prop configuration
 - [ ] Need to find testers
 
 
-# coding
+# coding rules
+So is more easy to help each others reading and maintaining the configuration file.
 ```sh
-\# category_name
+# category_name
 prop_name=prop_value
 ```

@@ -5,6 +5,8 @@ Tweaks for build.prop configuration
 These instructions will get you a pull of the build.prop file up and ready to edit on your local machine for development and testing purposes. After that you are able to push back and see changes.
 >When I was writing I am able to test this edits in a Custom ROM based on MIUI Global stable running Android 8.1. So you have to take care about your infos and backup things!
 
+>We are looking for a great configuration to set up a smooth device as possible, (I'm looking) so do it at your own risk. Is also possible that theese configurations can not override the kernel ones, so does not works at all (I'm trying). 
+
 ### Prerequisites
 We only need platform tools from Android Google suite (not required to download the entire Android studio (thanks!), Google update theese things so the setup is much easier right now).
 >Of course we need at least a **ROOT ACCESS** on device or you will not able to write this confiuration file.
@@ -21,8 +23,7 @@ adb pull /system/build.prop .
 If you want to save the file in a specific path replace ```.``` with ```<path\to\save>``` in your machine.
 
 ### Break down into file
-We are looking for a great configuration to set up a smooth device as possible, (I'm looking) so do it at your own risk. Is also possible that theese configurations can not override the kernel ones, so does not works at all. Let's start to edit!
-Follow this style so is more easy to help each others reading and maintaining the configuration file.
+Let's start to edit and follow this style so is more easy to help each others reading and maintaining the configuration file.
 ```sh
 # category_name
 prop_name=prop_value

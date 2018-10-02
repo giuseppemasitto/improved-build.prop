@@ -4,7 +4,7 @@ Tweaks for build.prop configuration
 ## Getting Started
 These instructions will get you a pull of the build.prop file up and ready to edit on your local machine for development and testing purposes. After that you are able to push back and see changes.
 > HARDWRE & SOFTWARE
->>When I was writing I am able to test theese edits in a Custom ROM based on MIUI Global stable running Android 8.1 over a Xiaomi Redmi 5 (rosy). Somethings could change from mine to yours device.
+>>When I was writing I am able to test theese edits in a Custom ROM based on MIUI Global stable running Android 8.1 over a Xiaomi Redmi 5 (rosy) in Windows 10 Pro machine, somethings could change from mine to yours device.
 
 So you have to take care about your infos and backup things!
 

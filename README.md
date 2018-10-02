@@ -3,7 +3,10 @@ Tweaks for build.prop configuration
 
 ## Getting Started
 These instructions will get you a pull of the build.prop file up and ready to edit on your local machine for development and testing purposes. After that you are able to push back and see changes.
->When I was writing I am able to test this edits in a Custom ROM based on MIUI Global stable running Android 8.1. So you have to take care about your infos and backup things!
+> HARDWRE & SOFTWARE
+>>When I was writing I am able to test theese edits in a Custom ROM based on MIUI Global stable running Android 8.1 over a Xiaomi Redmi 5 (rosy)
+
+So you have to take care about your infos and backup things!
 
 >We are looking for a great configuration to set up a smooth device as possible, (I'm looking) so do it at your own risk. Is also possible that theese configurations can not override the kernel ones, so does not works at all (I'm trying). 
 

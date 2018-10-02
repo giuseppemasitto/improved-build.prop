@@ -10,7 +10,7 @@ Tweaks for build.prop configuration
 
 
 # coding
-'''sh
+```sh
 \# category_name
 prop_name=prop_value
-'''
+```

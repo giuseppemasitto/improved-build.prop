@@ -1,90 +1,21 @@
 # ----------------------
-# SHELL BUILD
-# Author:	 muralivijay
-# ---------------------- 
-ro.build.id=OPM6.171019.030.K1
-ro.build.display.id=lineage_rosy-userdebug 8.1 OPM6.171019.030.K1 4ff8067bf9 test-keys
-ro.build.version.incremental=4ff8067bf9
-ro.build.version.sdk=27
-ro.build.version.sdk_int=27
-ro.build.version.preview_sdk=26
-ro.build.version.codename=REL
-ro.build.version.all_codenames=REL
-ro.build.version.release=8.1
-ro.build.version.security_patch=2018-09-05
-ro.build.version.base_os=MIUI Global stable
-ro.build.date=Mon Oct 2 7:51:20 UTC 2018
-ro.build.date.utc=1538466680
-ro.build.type=userdebug
-ro.build.user=mazinthebox
-ro.build.host=windows-mazinthebox
-ro.build.tags=debug-keys
-ro.build.flavor=lineage_rosy-userdebug
-ro.build.product=rosy
-
-ro.product.model=Redmi 5
-ro.product.brand=xiaomi
-ro.product.name=rosy
-ro.product.device=rosy
-ro.product.cpu.abi=arm64-v8a
-ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
-ro.product.cpu.abilist32=armeabi-v7a,armeabi
-ro.product.cpu.abilist64=arm64-v8a
-ro.product.manufacturer=xiaomi
-ro.product.locale=en-US
-
-ro.wifi.channels=
-
-ro.build.description=rosy-user 8.1 Oreo V9.2.3.0.NDAMIEK release-keys
-ro.build.fingerprint=Xiaomi/rosy/rosy:7.1.2/N2G47H/V9.2.3.0.NDAMIEK:user/release-keys
-ro.build.characteristics=default
-
-ro.lineage.device=rosy
-
-
-# ----------------------
-# ADDITIONAL SHELL BUILD
-# Author:	muralivijay
-# ---------------------- 
-net.bt.name=Android
-
-ro.bionic.ld.warning=1
-ro.treble.enabled=true
-ro.modversion=15.1-20181001-UNOFFICIAL-rosy
-
-persist.sys.dalvik.vm.lib.2=libart.so
-
-dalvik.vm.isa.arm64.variant=generic
-dalvik.vm.isa.arm64.features=default
-dalvik.vm.isa.arm.variant=cortex-a53
-dalvik.vm.isa.arm.features=default
-dalvik.vm.lockprof.threshold=500
-dalvik.vm.stack-trace-dir=/data/anr
-
-ro.lineage.version=15.1-20181001-UNOFFICIAL-rosy
-ro.lineage.releasetype=UNOFFICIAL
-ro.lineage.build.version=15.1
-ro.lineagelegal.url=https://lineageos.org/legal
-ro.lineage.display.version=15.1-20181001-UNOFFICIAL-rosy
-ro.lineage.build.version.plat.sdk=9
-ro.lineage.build.version.plat.rev=0
-
-ro.expect.recovery_id=0xd4560a51f7133d5514a8dcb3b7b3629d13bce112000000000000000000000000
-
-
-# ----------------------
 # CUSTOM TWEAKS
-# Author:	Giuseppe 'mazinthebox' Masitto
-# 			[at your own risk]
+# Author: mazinthebox
+# [at your own risk]
+# ---------------------- 
+
 # ---------------------- 
 # SCROLLING
+# ---------------------- 
 windowsmgr.max_events_per_sec=150 
 ro.min_pointer_dur=8
 ro.max.fling_velocity=12000
 ro.min.fling_velocity=8000
 persist.sys.scrollingcache=3
 debug.sf.hw=1
+# ---------------------- 
 # IMAGE-PANORAMAS-VIDEO
+# ---------------------- 
 ro.media.enc.jpeg.quality=100
 ro.media.dec.jpeg.memcap=8000000
 ro.media.enc.hprof.vid.bps=8000000
@@ -93,15 +24,23 @@ ro.media.panorama.defres=10800x2442
 ro.media.panorama.frameres=3264x1840
 ro.media.enc.hprof.vid.fps=65
 ro.camcorder.videoModes=true
+# ---------------------- 
 # FAST BOOT
+# ---------------------- 
 ro.config.hw_quickpoweron=true
 debug.sf.nobootanimation=1
+# ---------------------- 
 # ERROR PROFILER
+# ---------------------- 
 profiler.force_disable_err_rpt=1
 profiler.force_disable_ulog=1
+# ---------------------- 
 # PERFORMANCE
+# ---------------------- 
 debug.performance.tuning=1
+# ---------------------- 
 # TOUCH RESPONSIVENESS
+# ---------------------- 
 debug.sf.hw=1
 debug.performance.tuning=1
 debug.egl.profiler=1
@@ -109,24 +48,34 @@ debug.egl.hw=1
 debug.composition.type=gpu
 persist.sys.ui.hw=1
 video.accelerate.hw=1
+# ---------------------- 
 # DISABLE REPORT
+# ---------------------- 
 profiler.force_disable_err_rpt=1
 profiler.force_disable_ulog=1
 ro.kernel.checkjni=0
 ro.kernel.android.checkjni=0
 persist.android.strictmode=0
+# ---------------------- 
 # WIFI SCAN
+# ---------------------- 
 wifi.supplicant_scan_interval=120
+# ---------------------- 
 # LAUNCHER KEEP ALIVE
+# ---------------------- 
 ro.HOME_APP_ADJ=1
+# ---------------------- 
 # STREAMING VIDEOS
+# ---------------------- 
 media.stagefright.enable-player=true
 media.stagefright.enable-meta=true
 media.stagefright.enable-scan=true
 media.stagefright.enable-http=true
 media.stagefright.enable-rtsp=true
 media.stagefright.enable-record=false
+# ---------------------- 
 # NET SPEED
+# ---------------------- 
 net.dns1=8.8.8.8
 net.dns2=8.8.4.4
 net.rmnet0.dns1=8.8.8.8

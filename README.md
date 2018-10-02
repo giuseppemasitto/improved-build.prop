@@ -31,6 +31,7 @@ Let's start to edit and follow this style so is more easy to help each others re
 # category_name
 prop_name=prop_value
 ```
+Knew it you can add this [build.prop](https://github.com/mazinthebox/improved-build.prop/blob/master/build.prop) at the end of your build.prop file.
 
 ### Uploading the result
 Upload back the edited file

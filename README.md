@@ -7,3 +7,7 @@ Tweaks for build.prop configuration
 - [x] Changes & Versioning
 - [ ] Keep testing resources
 - [ ] Need to find testers
+
+
+# and more!
+Visit https://github.com/mazinthebox/improved-build.prop

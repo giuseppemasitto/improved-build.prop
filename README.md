@@ -3,11 +3,14 @@ Tweaks for build.prop configuration
 >I'm looking for a great configuration to set up a smooth device as possible, (I'm looking) so do it at your own risk. Is also possible that theese configurations can not override the kernel ones, so does not works at all.
 
 
-# To do
+# to do
 - [x] Changes & Versioning
 - [ ] Keep testing resources
 - [ ] Need to find testers
 
 
-# and more!
-Visit https://github.com/mazinthebox/improved-build.prop
+# coding
+'''sh
+\# category_name
+prop_name=prop_value
+'''

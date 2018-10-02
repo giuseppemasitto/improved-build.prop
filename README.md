@@ -47,7 +47,7 @@ If you want to deploy this one, link to https://github.com/mazinthebox/improved-
 
 ## Built With
 * [npp++](https://notepad-plus-plus.org/download/v7.5.8.html) - The editor used
-* [adb.exe](https://developer.android.com/studio/releases/platform-tools) - From the platform tools
+* [adb](https://developer.android.com/studio/releases/platform-tools) - From the platform tools
 
 
 ## Authors

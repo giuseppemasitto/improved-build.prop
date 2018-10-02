@@ -1,6 +1,7 @@
 # ----------------------
 # CUSTOM TWEAKS
 # Author: mazinthebox
+# Version: 1
 # [at your own risk]
 # ---------------------- 
 
@@ -85,14 +86,22 @@ net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
+# ----------------------
 # LOGCAT
+# ----------------------
 logcat.live=disable
+# ----------------------
 # SENSOR PROXIMITY
+# ----------------------
 mot.proximity.delay=0
 ro.lge.proximity.delay=25
+# ----------------------
 # INSTANT RING
+# ----------------------
 ro.telephony.call_ring.delay=0
 ring.delay=0
+# ----------------------
 # CALL CLARITY
+# ----------------------
 ro.ril.enable.amr.wideband=1
 ro.config.vc_call_steps=20

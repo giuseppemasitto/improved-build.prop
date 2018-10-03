@@ -28,6 +28,8 @@ ro.camcorder.videoModes=true
 # FAST BOOT
 # ---------------------- 
 ro.config.hw_quickpoweron=true
+persist.sys.shutdown.mode=hibernate
+ro.config.hw_fast_dormancy=1
 debug.sf.nobootanimation=1
 # ---------------------- 
 # ERROR PROFILER
@@ -67,20 +69,36 @@ media.stagefright.enable-player=true
 media.stagefright.enable-meta=true
 media.stagefright.enable-scan=true
 media.stagefright.enable-http=true
-media.stagefright.enable-rtsp=true
-media.stagefright.enable-record=false
-# ---------------------- 
-# NET SPEED
-# ---------------------- 
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-record=true
+# ----------------------
+# GOOGLE DNS
+# ----------------------
 net.dns1=8.8.8.8
 net.dns2=8.8.4.4
 net.rmnet0.dns1=8.8.8.8
 net.rmnet0.dns2=8.8.4.4
+net.ppp0.dns1=8.8.8.8
+net.ppp0.dns2=8.8.4.4
+net.wlan0.dns1=8.8.8.8
+net.wlan0.dns2=8.8.4.4
+net.eth0.dns1=8.8.8.8
+net.eth0.dns2=8.8.4.4
+net.gprs.dns1=8.8.8.8
+net.gprs.dns2=8.8.4.4
+# ---------------------- 
+# NET SPEED
+# ---------------------- 
 net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.hspa=6144,87380,524288,6144,16384,262144
+net.tcp.buffersize.lte=524288,1048576,2097152,524288,1048576,2097152
+net.tcp.buffersize.hsdpa=6144,87380,1048576,6144,87380,1048576
+net.tcp.buffersize.evdo_b=6144,87380,1048576,6144,87380,1048576
 # ----------------------
 # LOGCAT
 # ----------------------
@@ -100,3 +118,10 @@ ring.delay=0
 # ----------------------
 ro.ril.enable.amr.wideband=1
 ro.config.vc_call_steps=20
+# ----------------------
+# QUALCOMM TWEAKS
+# ----------------------
+com.qc.hardware=1
+debug.qc.hardware=true
+debug.qctwa.preservebuf=1
+debug.qctwa.statusbar=1

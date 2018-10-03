@@ -13,7 +13,6 @@ ro.min_pointer_dur=8
 ro.max.fling_velocity=12000
 ro.min.fling_velocity=8000
 persist.sys.scrollingcache=3
-debug.sf.hw=1
 # ---------------------- 
 # IMAGE-PANORAMAS-VIDEO
 # ---------------------- 
@@ -35,10 +34,6 @@ debug.sf.nobootanimation=1
 # ---------------------- 
 profiler.force_disable_err_rpt=1
 profiler.force_disable_ulog=1
-# ---------------------- 
-# PERFORMANCE
-# ---------------------- 
-debug.performance.tuning=1
 # ---------------------- 
 # TOUCH RESPONSIVENESS
 # ---------------------- 
